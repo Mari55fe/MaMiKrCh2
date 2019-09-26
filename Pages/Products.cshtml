@@ -1,0 +1,48 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Produkter";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+<body>
+
+    <div class="container">
+        <h3>Få inspiration</h3>
+        <p>Alle kan læse og skrive med CD‑ORD og IntoWords</p>
+        <p>Få hjælp til stavning, grammatik og kommmatering, og skab klarhed i dine tekster.</p>
+        <p>Med læse- og skriveværktøjet IntoWords kan du læse ubesværet og forbedre din skrivning - på dansk og andre sprog.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="https://www.mv-nordic.com/dk/produkter/cd-ord/" target="_blank" style="color:crimson; font-size:20px"> CD-ord </a>
+                        <img src="~/images/pige_cdord-285x410.png" alt="CD-Ord" style="width:150px"/>
+                        <div class="caption">
+                            <p>Pc-baseret læse- og skriveprogram, der hjælper usikre læsere og ordblinde.</p>
+                        </div>
+                   
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="https://www.mv-nordic.com/dk/produkter/intowords/" target="_blank" style="color:crimson; font-size:20px"> IntoWords</a>
+                        <img src="~/images/listimg-285x409.png" alt="IntoWords" style="width:150px"/>
+                        <div class="caption">
+                            <p>Frihed til at læse, skrive og søge viden. For alle.</p>
+                        </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="https://www.mv-nordic.com/dk/produkter/grammateket/" target="_blank" style="color:crimson; font-size:20px">Grammateket</a>
+                      <img src="~/images/grammateket-gradient-150x150.png" alt="Grammatekt" style="width:150px;"/> 
+                       <div class="caption">
+                           <p>En kontekstbaseret stave- og grammatikkontrol, der gør dig og dine tekster grammatisk bedre.</p>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
